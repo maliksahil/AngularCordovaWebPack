@@ -8,11 +8,11 @@ It is tested to work on Android and iOS, and it supports concepts such as bundli
 2. npm install 
 
 For iOS 
-3. cordova platform add ios
-4. npm run cordova:ios
+1. cordova platform add ios
+2. npm run cordova:ios
 
 For Android
-3. cordova platform add android
-4. npm run cordova:android
+1. cordova platform add android
+2. npm run cordova:android
 
 Feedback? reach me at www.winsmarts.com or @sahilmalik
