@@ -7,11 +7,11 @@ It is tested to work on Android and iOS, and it supports concepts such as bundli
 1. git clone https://github.com/maliksahil/AngularCordovaWebPack
 2. npm install 
 
-For iOS 
+## For iOS 
 1. cordova platform add ios
 2. npm run cordova:ios
 
-For Android
+## For Android
 1. cordova platform add android
 2. npm run cordova:android
 
