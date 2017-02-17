@@ -1,0 +1,10 @@
+.DS_Store
+node_modules
+jspm_packages
+jspm.config.js
+out
+platforms
+www/app/*.js
+www/app/*.js.map
+npm-debug*.*
+www/dist

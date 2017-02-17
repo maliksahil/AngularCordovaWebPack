@@ -1,0 +1,56 @@
+{
+  "name": "xplat-template",
+  "version": "1.0.0",
+  "scripts": {
+    "start":"tsc && npm run bundle && webpack-dev-server --port 4200 --colors --watch --content-base www",
+    "bundle":"webpack --config webpack.config.js --source-map",
+    "cordova:android": "tsc && npm run bundle && cordova run android",
+    "cordova:ios": "tsc && npm run bundle && cordova run ios",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings install"
+  },
+  "dependencies": {
+    "@angular/common": "^2.3.1",
+    "@angular/compiler": "^2.3.1",
+    "@angular/core": "^2.3.1",
+    "@angular/forms": "^2.3.1",
+    "@angular/http": "^2.3.1",
+    "@angular/platform-browser": "^2.3.1",
+    "@angular/platform-browser-dynamic": "^2.3.1",
+    "@angular/router": "^3.3.1",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.0.1",
+    "zone.js": "^0.7.2",
+    "systemjs": "^0.19.38",
+    "es6-shim": "0.35.1",
+    "reflect-metadata": "^0.1.9"
+  },
+  "devDependencies": {
+    "@types/jasmine": "2.5.38",
+    "@types/node": "^6.0.42",
+    "typescript": "^2.0.3",
+    "typings": "^1.0.4",
+    "concurrently": "3.1.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server":"^1.16.2",
+    "ts-loader":"1.3.3",
+    "html-loader":"0.4.4",
+    "css-loader":"0.26.1"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Sahil Malik",
+    "url": "www.winsmarts.com"
+  },
+  "keywords": [
+    "angular",
+    "webpack",
+    "cordova",
+    "angular2",
+    "typescript",
+    "ios",
+    "android"
+  ],
+  "description": "This project uses Angular with WebPack to craft up a cordova boilerplate project."
+}

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es6", "dom"],
+    "removeComments": true,
+    "noImplicitAny": false,
+    "allowJs": false,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "plugins",
+    "platforms",
+    "node_modules",
+    "typings/globals/cordova/**/*.*",
+    "www/dist",
+    ".vscode"
+  ]
+}
