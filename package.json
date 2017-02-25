@@ -29,6 +29,8 @@
   "devDependencies": {
     "@types/jasmine": "2.5.38",
     "@types/node": "^6.0.42",
+    "@types/cordova":"0.0.34",
+    "@types/cordova-plugin-device":"0.0.3",
     "typescript": "^2.0.3",
     "typings": "^1.0.4",
     "concurrently": "3.1.0",

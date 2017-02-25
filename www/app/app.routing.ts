@@ -1,10 +1,10 @@
-import { ModuleWithProviders }  from '@angular/core';
+import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { TodoComponent } from './todo/todo.component';
-import {AboutComponent} from './about/about.component';
+import { DeviceComponent } from './device/device.component';
+import { AboutComponent } from './about/about.component';
 
 export const routes: Routes = [
-  { path: '', component: AboutComponent },
-  { path: 'todo', component: TodoComponent },
+    { path: '', component: AboutComponent },
+    { path: 'device', component: DeviceComponent },
 ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(routes);
